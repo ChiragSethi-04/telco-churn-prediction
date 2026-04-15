@@ -218,35 +218,7 @@ The model flags many new customers with high monthly charges as churners — but
 
 ---
 
-## 🚀 How to Run
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/YOUR-USERNAME/telco-churn-prediction.git
-cd telco-churn-prediction
-```
-
-### 2. Install dependencies
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn xgboost shap imbalanced-learn statsmodels jupyter openpyxl
-```
-
-### 3. Download the dataset
-Go to [kaggle.com/datasets/blastchar/telco-customer-churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) → Download → Rename file to `telco_churn.csv` → Place in `data/` folder.
-
-### 4. Run the full analysis
-```bash
-python churn_analysis.py
-```
-This runs all 10 sections and saves 16 output charts to `outputs/`.
-
-### 5. Or run notebooks individually
-```bash
-jupyter notebook
-```
-Open notebooks in order: `01_eda.ipynb` → `02_preprocessing.ipynb` → ... → `08_error_analysis.ipynb`
-
----
 
 ## 🛠️ Tech Stack
 
@@ -278,11 +250,10 @@ Open notebooks in order: `01_eda.ipynb` → `02_preprocessing.ipynb` → ... →
 
 | Member | Role | Sections |
 |---|---|---|
-| Member 1 | Project Lead | GitHub, Report Assembly, Introduction, Conclusion |
-| Member 2 | EDA Analyst | EDA (Section 2), Preprocessing justification |
-| Member 3 | Model Builder | Preprocessing, Models, Evaluation, Business ROI |
-| Member 4 | SHAP + Sensitivity | SHAP Explainability, Sensitivity Analysis, Stratified Analysis |
-| Member 5 | Error + Presentation | Error Analysis, Customer Personas, Slide Deck |
+| Chirag Sethi | Project Lead | GitHub | Model Builder | Preprocessing, Models, Evaluation, Business ROI |
+| Mitrajit Kumar | EDA Analyst | EDA (Section 2), Preprocessing justification |
+| Hardik Sharma | SHAP + Sensitivity | SHAP Explainability, Sensitivity Analysis, Stratified Analysis |
+| Shree Iyengar | Error + Presentation | Error Analysis, Customer Personas, Slide Deck |
 
 ---
 
