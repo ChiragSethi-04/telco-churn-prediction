@@ -250,7 +250,7 @@ The model flags many new customers with high monthly charges as churners — but
 
 | Member | Role | Sections |
 |---|---|---|
-| Chirag Sethi | Project Lead | GitHub | Model Builder | Preprocessing, Models, Evaluation, Business ROI |
+| Chirag Sethi | Project Lead | GitHub , Model Builder , Preprocessing, Models, Evaluation, Business ROI |
 | Mitrajit Kumar | EDA Analyst | EDA (Section 2), Preprocessing justification |
 | Hardik Sharma | SHAP + Sensitivity | SHAP Explainability, Sensitivity Analysis, Stratified Analysis |
 | Shree Iyengar | Error + Presentation | Error Analysis, Customer Personas, Slide Deck |
